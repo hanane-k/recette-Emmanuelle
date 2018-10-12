@@ -130,7 +130,7 @@ h4 {
 }
 a {
     text-decoration: none;
-    color: #000;
+    color: rgb(90, 86, 86);
 }
 
 .noel, article, .basHeader {
@@ -139,22 +139,25 @@ a {
     align-items: center;
 }
 
-.img {
+.img, .img2 {
     width: 150px;
-    height: 20vh;
+    height: 100%;
 }
 .img1 {
     width: 220px;
-    height: 35vh;
-
+    height: 20%;
 } 
 /* ==============end common class================== */
 
 /* ==============start header================== */
 .hautHeader {
-    justify-content: space-around;
+    width: 85%;
+    justify-content: space-between;
 }
 
+.contHautHeader {
+    justify-content: center;
+}
 .menu {
     width: 50%;
 }
@@ -163,21 +166,22 @@ a {
     font-size: 2em;   
     padding-top: 5%;
 }
-    /* background-image: url("http://www.letribunaldunet.fr/wp-content/uploads/2017/09/dessertsvegansarticle-610x614.jpg"); */
-    /* width: 100%;
-    height: 40vh;
-    background-repeat: no-repeat; */
-
-.basHeader p {
-    color: rgb(173, 3, 3);
-}
 
 .basHeader p span {
-    color: #000;
+    color: rgb(70, 9, 9);
 }
 
 /* ==============end header================== */
 /* ==============start main================== */
+.mobileOnly {
+    display: block;
+}
+
+.desktop, .tabletteOnly {
+    display: none;
+}
+
+
 .profitez {
     background-color: rgb(204, 199, 199);
     width: 100px;
@@ -196,34 +200,69 @@ article {
     background-color: rgb(221, 221, 221);
     margin: 2% auto;
 }
+
+.noel img {
+    width: 70%;
+    height: 25%;
+}
+
+@media screen and (min-width: 600px) {
+    .tabletteOnly {
+        display: block;
+    }
+
+    .img2 {
+        width: 50px;
+        height: 50%;
+    }
+
+    .img1 {
+        width: 150px;
+        height: 30%;
+    }
+
+    .hautHeaderD {
+        width: 350px;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .basHeader {
+        height: 40vh;
+    }
+    .contBasHeader {
+        background-image: url("https://static.cuisineaz.com/610x610/i107239-tartelette-a-la-creme-de-citron.jpg");
+        background-repeat: no-repeat;
+        background-size: cover; 
+    }
+    .mobileOnly {
+        display: none;
+    }
+    .menu2 {
+        width: 65%;
+        justify-content: space-between;
+    }
+    li {
+        list-style: none;
+        font-weight: bold;
+    }
+    .articles {
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .recette {
+        width: 44%;
+    }
+  }
 /* ==============end main================== */
 /* ==============start footer================== */
 footer {
     margin-top: 10vh;
-}
-
-.resSoc {
     justify-content: space-around;
 }
+.iconReseau {
+    font-size: 3em;
+}
 /* ==============end footer================== */
-.mobileOnly {
-    display: block;
-}
-
-
-.desktop, .tabletteOnly {
-    display: none;
-}
-
-
-
-
-
-
-
-
-
-
 
 
 /* ==========================================================================
