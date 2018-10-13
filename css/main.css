@@ -128,9 +128,14 @@ h4 {
 .flex {
     display: flex;
 }
+
 a {
     text-decoration: none;
     color: rgb(90, 86, 86);
+}
+
+p {
+    width: 90%;
 }
 
 .noel, article, .basHeader {
@@ -143,10 +148,17 @@ a {
     width: 150px;
     height: 100%;
 }
+
 .img1 {
     width: 220px;
     height: 20%;
-} 
+}
+
+.profitez {
+    background-color: rgb(204, 199, 199);
+    width: 100px;
+    height: 5vh;
+}
 /* ==============end common class================== */
 
 /* ==============start header================== */
@@ -158,6 +170,7 @@ a {
 .contHautHeader {
     justify-content: center;
 }
+
 .menu {
     width: 50%;
 }
@@ -181,17 +194,6 @@ a {
     display: none;
 }
 
-
-.profitez {
-    background-color: rgb(204, 199, 199);
-    width: 100px;
-    height: 5vh;
-}
-
-p {
-    width: 90%;
-}
-
 .nouvelles {
     justify-content: flex-start;
 }
@@ -211,6 +213,10 @@ article {
         display: block;
     }
 
+    .mobileOnly {
+        display: none;
+    }
+
     .img2 {
         width: 50px;
         height: 50%;
@@ -223,24 +229,26 @@ article {
 
     .hautHeaderD {
         width: 350px;
-        justify-content: space-between;
         align-items: center;
     }
+
     .basHeader {
         height: 40vh;
+    }
+
+    .between {
+        justify-content: space-between;
     }
     .contBasHeader {
         background-image: url("https://static.cuisineaz.com/610x610/i107239-tartelette-a-la-creme-de-citron.jpg");
         background-repeat: no-repeat;
         background-size: cover; 
     }
-    .mobileOnly {
-        display: none;
-    }
+
     .menu2 {
         width: 65%;
-        justify-content: space-between;
     }
+
     li {
         list-style: none;
         font-weight: bold;
@@ -290,6 +298,7 @@ footer {
     margin-top: 10vh;
     justify-content: space-around;
 }
+
 .iconReseau {
     font-size: 3em;
 }
