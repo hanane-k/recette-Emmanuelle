@@ -8,7 +8,7 @@
         <div class="hautHeaderD flex between">
           <img class= "img2" src="img/login.jpg" alt="image login">
           <form class="tabletteOnly" action="https://www.google.com/">
-            <input type="search" placeholder="Entrez votre recherche" name="the_search">
+            <input type="search" placeholder="Entrez votre recherche..." name="the_search">
           </form>
           <a href="https://www.google.com/search?client=ubuntu&hs=blu&channel=fs&ei=dkzAW_iHC4GWauy5vIgC&q=patissier&oq=patissier&gs_l=psy-ab.3..0i131k1j0l2j0i10k1j0l6.562879.566026.0.566822.9.9.0.0.0.0.146.724.8j1.9.0....0...1c.1.64.psy-ab..0.9.723...35i39k1j0i131i67k1j0i67k1.0.9jxYxvAGUMk"><i class="fas fa-search desktop tabletteOnly"></i></a>
         </div>

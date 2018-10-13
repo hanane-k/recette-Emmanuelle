@@ -101,7 +101,7 @@ textarea {
     font-family: 'looster', sans-serif;
     text-align: center;
 }
-h1, h2, h3, h4 {
+h1, h2, h3, h4, .hautHeader {
     font-family: "Charmonman";
     margin-top: 6vh;
 }
@@ -147,6 +147,7 @@ p {
 .img, .img2 {
     width: 150px;
     height: 100%;
+    border-radius: 10%;
 }
 
 .img1 {
@@ -278,10 +279,15 @@ article {
 
     }
     .call img {
-        width: 50%;
-        height: 30%;
+        width: 90%;
+        height: 20vh;
     }
 
+    .call span {
+        background-color: red;
+        color: white;
+        padding: 2% 2%;
+    }
     .recette {
         width: 30%;
     }

@@ -4,15 +4,16 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <link rel="shortcut icon" href="img/favicon.ico" />
   <title>Le monde d'Emmanuelle</title>
-  <meta name="description" content="">
+  <meta name="description" content="Bienvenue sur mon blog de pâtisserie ou toutes les recettes ont été testées et approuvées!">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
   <link rel="manifest" href="site.webmanifest">
   <link rel="apple-touch-icon" href="icon.png">
   <!-- Place favicon.ico in the root directory -->
-  <link rel="icon" href="favicon.ico" />
-  <link href="https://fonts.googleapis.com/css?family=Charmonman|Lobster" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Charmonman" rel="stylesheet"> 
+  <link href="https://fonts.googleapis.com/css?family=Lobster" rel="stylesheet"> 
   <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">  <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/main.css">
 </head>
@@ -32,17 +33,18 @@
       <div class="containerCall flex">
         <div class="call flex">
           <img src="img/call1.gif" alt="image gateau">
-          <p>En partenariat avec PATRICK HERMAND</p>
-          <p><a href="http://www.patrickhermand.com/"><strong>Visitez</strong></a></p>
+          <p>En partenariat avec un des plus grand patissier en France <strong>"PATRICK HERMAND"</strong></p>
+          <p><a href="http://www.patrickhermand.com/"><span><strong>Visitez</strong></span></a></p>
         </div>
         <div class="call flex">
           <img src="img/call3.jpg" alt="image gateau">
-          <p>Découvrez le premier concours amateur entièrement consacré à la pâtisserie.</p>
-          <p><a href="https://www.facebook.com/lemeilleurpatissier/"><strong>Découvrez</strong></a></p> 
+          <p>Découvrez le premier concours amateur entièrement consacré à <strong>la pâtisserie</strong>.</p>
+          <p><a href="https://www.facebook.com/lemeilleurpatissier/"><span><strong>Découvrez</strong></span></a></p> 
         </div>   
         <div class="call flex">
           <img src="img/call2.jpg" alt="image gateau">
-          <p><a href="http://www.patrickhermand.com/"><strong>Reservez dès maintenant</strong></a></p>
+          <p><strong>Canelas</strong> crée l'événement et franchit une nouvelle étape de son développement...</p>
+          <p><a href="http://www.patrickhermand.com/"><span><strong>Reservez dès maintenant</strong></span></a></p>
         </div>
       </div>
     </section>
